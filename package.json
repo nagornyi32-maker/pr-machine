@@ -1,0 +1,1 @@
+{"name":"pr-machine","version":"2.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test test.mjs game.test.mjs worker.test.mjs","dev:cloud":"wrangler dev","deploy":"wrangler d1 migrations apply DB --remote && wrangler deploy"},"engines":{"node":">=22"},"devDependencies":{"wrangler":"^4.151.0"}}
